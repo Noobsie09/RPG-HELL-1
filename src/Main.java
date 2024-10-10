@@ -6,7 +6,7 @@ public class Main {
 
         System.out.println("-------------------------------------------");
 
-        Spieler spieler = new Spieler("Rafael", "Mönch");
+        Spieler spieler = new Spieler("Rafael", "Barbar");
 
         String name = spieler.getName();
         String klasse = spieler.getKlasse();
@@ -35,7 +35,7 @@ public class Main {
         System.out.println("LEVELANSTIEG!!!");
 
         //1. Angfriff; 2. Präzision; 3. Vitalität; 4. Verteidigung; 5. Willenskraft
-        spieler.levelAnstieg(false, true, true, false, false);
+        spieler.levelAnstieg(true, false, true, false, false);
         System.out.println("Wähle bis zu 2 Eigenschaften, die du jeweils um 1 erhöhern möchtest, wählst  du nur eine Eigenschaft, wird diese um 2 erhöht");
 
         System.out.println("Deine Lebens- und Zauberenergie wird zusätzlich um 5% erhöht und dein Level steigt um 1");

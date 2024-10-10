@@ -33,30 +33,58 @@ public class Spieler {
             vitalitaet = 2;
             verteidigung = 2;
             willenskraft = 5;
+            System.out.println("    ,   /|\n" +
+                                "   //|  | |\n" +
+                                "  // |  | |\n" +
+                                " //  |  | |\n" +
+                                "/____|__|_|\n" +
+                                "   (o o)\n" +
+                                "   /|_|\\");
         } else if ("Dämonenjäger".equals(klasse)) {
             angriff = 4;
             praezision = 3;
             vitalitaet = 2;
             verteidigung = 2;
             willenskraft = 5;
+            System.out.println("      /\\\n" +
+                                "     /__\\\n" +
+                                "    |    |\n" +
+                                "    | || |\n" +
+                                "    | || |\n" +
+                                "    |____|");
         } else if ("Mönch".equals(klasse)) {
             angriff = 3;
             praezision = 4;
             vitalitaet = 3;
             verteidigung = 5;
             willenskraft = 5;
+            System.out.println("     O\n" +
+                                "    /|\\\n" +
+                                "    / \\\n" +
+                                "   /   \\");
         } else if ("Hexendoktor".equals(klasse)) {
             angriff = 5;
             praezision = 3;
             vitalitaet = 2;
             verteidigung = 1;
             willenskraft = 5;
+            System.out.println("    .-.\n" +
+                                "   (o o)\n" +
+                                "   | O |\n" +
+                                "   '---'\n");
         } else if ("Zauberer".equals(klasse)) {
             angriff = 4;
             praezision = 4;
             vitalitaet = 2;
             verteidigung = 2;
             willenskraft = 5;
+            System.out.println("       /\\\n" +
+                                "      /__\\\n" +
+                                "     |    |\n" +
+                                "     | || |\n" +
+                                "     | || |\n" +
+                                "     |____|\n" +
+                                "       ||");
         } else {
             System.out.println("Ungültige Klasse! Deine jetzige Klasse ist Barbar!");
             klasse = "Barbar";
@@ -65,6 +93,7 @@ public class Spieler {
             vitalitaet = 2;
             verteidigung = 2;
             willenskraft = 5;
+
         }
     }
 
