@@ -102,7 +102,7 @@ public class Spieler {
                                 "       ||");
         } else {
             //gibt dem Spieler bei ungültiger KLasse die KLasse Barbar
-            System.out.println("Ungültige Klasse! Deine jetzige Klasse ist Barbar!");
+            System.out.println("Ungültige Klasse Doofian! Deine jetzige Klasse ist Barbar!");
             klasse = "Barbar";
             angriff = 5;
             praezision = 3;
