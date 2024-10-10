@@ -1,3 +1,4 @@
+//@Noobsie
 public class Spieler {
     private String name;
     private String klasse;
