@@ -29,6 +29,7 @@ public class Spieler {
     private void setStarteigenschaften(String klasse)
     {
         if ("Barbar".equals(klasse)) {
+            //Gibt der KLasse Barbar die Start Atribute
             angriff = 5;
             praezision = 3;
             vitalitaet = 2;
@@ -44,6 +45,7 @@ public class Spieler {
                                 "   /|_|\\");
 
         } else if ("Dämonenjäger".equals(klasse)) {
+            //Gibt der KLasse Dämonenjäger die Start Atribute
             angriff = 4;
             praezision = 3;
             vitalitaet = 2;
@@ -58,6 +60,7 @@ public class Spieler {
                                 "    |____|");
 
         } else if ("Mönch".equals(klasse)) {
+            //Gibt der KLasse Mönch die Start Atribute
             angriff = 3;
             praezision = 4;
             vitalitaet = 3;
@@ -70,6 +73,7 @@ public class Spieler {
                                 "   /   \\");
 
         } else if ("Hexendoktor".equals(klasse)) {
+            //Gibt der KLasse Hexendoktor die Start Atribute
             angriff = 5;
             praezision = 3;
             vitalitaet = 2;
@@ -82,6 +86,7 @@ public class Spieler {
                                 "   '---'\n");
 
         } else if ("Zauberer".equals(klasse)) {
+            //Gibt der KLasse Zauberer die Start atribute
             angriff = 4;
             praezision = 4;
             vitalitaet = 2;
@@ -96,6 +101,7 @@ public class Spieler {
                                 "     |____|\n" +
                                 "       ||");
         } else {
+            //gibt dem Spieler bei ungültiger KLasse die KLasse Barbar
             System.out.println("Ungültige Klasse! Deine jetzige Klasse ist Barbar!");
             klasse = "Barbar";
             angriff = 5;
