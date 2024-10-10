@@ -5,18 +5,18 @@ public class Main {
         System.out.println("*****RPG HELL (PART I)*****");
 
         System.out.println("-----------------------------------------------------------------");
-
+        //Name des Spielers und die KLasse
         Spieler spieler = new Spieler("Rafael", "Barbar");
 
         String name = spieler.getName();
         String klasse = spieler.getKlasse();
-
+        //Zeigt deinen Namen und die KLasse
         System.out.println("Dein Name ist " + name + " und deine Klasse ist " + klasse + ".");
 
 
         System.out.println("-----------------------------------------------------------------");
 
-
+        //Zeigt deine Starteigenschaften
         System.out.println("Deine Starteigenschaften lauten wie folgt:");
 
         System.out.println("Level: " + spieler.getLevel());
@@ -31,11 +31,11 @@ public class Main {
 
         System.out.println("-----------------------------------------------------------------");
 
-
+        //Levelanstieg
         System.out.println("LEVELANSTIEG!!!");
 
         //1. Angfriff; 2. Präzision; 3. Vitalität; 4. Verteidigung; 5. Willenskraft
-        spieler.levelAnstieg(true, false, true, false, false);
+        spieler.levelAnstieg(true, false, false, false, false);
         System.out.println("Wähle bis zu 2 Eigenschaften, die du jeweils um 1 erhöhern möchtest, wählst  du nur eine Eigenschaft, wird diese um 2 erhöht");
 
         System.out.println("Deine Lebens- und Zauberenergie wird zusätzlich um 5% erhöht und dein Level steigt um 1");
@@ -61,7 +61,7 @@ public class Main {
 
         System.out.println("-----------------------------------------------------------------");
 
-
+        //Levelanstieg
         System.out.println("LEVELANSTIEG!!!");
 
         //1. Angfriff; 2. Präzision; 3. Vitalität; 4. Verteidigung; 5. Willenskraft
@@ -91,11 +91,11 @@ public class Main {
 
         System.out.println("-----------------------------------------------------------------");
 
-
+        //Levelanstieg
         System.out.println("LEVELANSTIEG!!!");
 
         //1. Angfriff; 2. Präzision; 3. Vitalität; 4. Verteidigung; 5. Willenskraft
-        spieler.levelAnstieg(false, true, false, false, true);
+        spieler.levelAnstieg(false, true, false, false, false);
         System.out.println("Wähle bis zu 2 Eigenschaften, die du jeweils um 1 erhöhern möchtest, wählst  du nur eine Eigenschaft, wird diese um 2 erhöht");
 
         System.out.println("Deine Lebens- und Zauberenergie wird zusätzlich um 5% erhöht und dein Level steigt um 1");
@@ -125,7 +125,7 @@ public class Main {
         System.out.println("LEVELANSTIEG!!!");
 
         //1. Angfriff; 2. Präzision; 3. Vitalität; 4. Verteidigung; 5. Willenskraft
-        spieler.levelAnstieg(false, false, true, false, true);
+        spieler.levelAnstieg(false, false, false, false, true);
         System.out.println("Wähle bis zu 2 Eigenschaften, die du jeweils um 1 erhöhern möchtest, wählst  du nur eine Eigenschaft, wird diese um 2 erhöht");
 
         System.out.println("Deine Lebens- und Zauberenergie wird zusätzlich um 5% erhöht und dein Level steigt um 1");
