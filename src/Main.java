@@ -4,7 +4,7 @@ public class Main {
 
         System.out.println("*****RPG HELL (PART I)*****");
 
-        System.out.println("-------------------------------------------");
+        System.out.println("-----------------------------------------------------------------");
 
         Spieler spieler = new Spieler("Rafael", "Barbar");
 
@@ -14,7 +14,7 @@ public class Main {
         System.out.println("Dein Name ist " + name + " und deine Klasse ist " + klasse + ".");
 
 
-        System.out.println("-------------------------------------------");
+        System.out.println("-----------------------------------------------------------------");
 
 
         System.out.println("Deine Starteigenschaften lauten wie folgt:");
@@ -29,7 +29,7 @@ public class Main {
         System.out.println("Willenskraft: " + spieler.getWillenskraft());
 
 
-        System.out.println("-------------------------------------------");
+        System.out.println("-----------------------------------------------------------------");
 
 
         System.out.println("LEVELANSTIEG!!!");
@@ -59,7 +59,7 @@ public class Main {
         System.out.println("Willenskraft: " + Willenskraft2);
 
 
-        System.out.println("-------------------------------------------");
+        System.out.println("-----------------------------------------------------------------");
 
 
         System.out.println("LEVELANSTIEG!!!");
@@ -89,7 +89,7 @@ public class Main {
         System.out.println("Willenskraft: " + Willenskraft3);
 
 
-        System.out.println("-------------------------------------------");
+        System.out.println("-----------------------------------------------------------------");
 
 
         System.out.println("LEVELANSTIEG!!!");
@@ -119,7 +119,7 @@ public class Main {
         System.out.println("Willenskraft: " + Willenskraft4);
 
 
-        System.out.println("-------------------------------------------");
+        System.out.println("-----------------------------------------------------------------");
 
 
         System.out.println("LEVELANSTIEG!!!");
